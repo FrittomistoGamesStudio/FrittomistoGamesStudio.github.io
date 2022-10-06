@@ -1,0 +1,284 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Light.ttf");
+    font-weight: light;
+}
+* {
+    box-sizing: border-box;
+
+}
+body {
+    text-align: center;
+    font-family: "Montserrat";
+}
+.highlight {
+    color: #ED6A5A;
+}
+.header {
+    height: 850px;
+    background-image: url("../images/team-photo_light2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-shadow: 2px 2px 0px white;
+    position: relative;
+}
+.logo-mobile {
+    display: none;
+}
+.header .logo-container {
+    width: 260px;
+    height: 260px;
+    border-radius: 300px;
+    background: rgba(255, 255, 255, 1);
+    margin: auto;
+    position: absolute;
+    top: -8.5rem;
+    left: 0;
+    right: 0;
+}
+.logo-container .logo {
+    width: 130px;
+    padding-top: 6rem;
+}
+.header h1 {
+    position: absolute;
+    top: 36rem;
+    left: 0;
+    right: 0;
+}
+.header2 {
+    width: 100%;
+
+}
+.logo {
+    /*
+    margin-top: 9rem;
+    */
+    margin: 3rem auto;
+    width: 200px;
+}
+.wrapper, .wrapper-photo {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px;
+}
+.wrapper-behind-photo {
+    width: 100%;
+    background: #fffcf5;
+
+}
+.wrapper-photo {
+    max-width: 1280px;
+}
+.wrapper-fluid {
+    max-width: 100%;
+}
+.white-row {
+    background: white;
+}
+.yellow-row {
+    background: #fffcf5;
+}
+.row-padding {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+h1 {
+    color: #ED6A5A;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.intro-text {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+.sub-intro-text {
+    font-size: 1rem;
+    margin: 4rem auto 0;
+    max-width: 540px;
+    width: 100%;
+    text-align: justify;
+}
+.gazzaladra {
+    width: 100%;
+    max-width: 828px;
+}
+.video-container {
+    margin-top: 4rem;
+}
+.video-container iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+}
+.gallery-wrapper {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-element {
+    width: 33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.gallery-element img {
+    width: 100%;
+    cursor: zoom-in;
+}
+.gallery .game-title {
+    color: #ED6A5A;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.team-list {
+    width: 100%;
+    max-width: 800px;
+    margin: 4rem auto;
+}
+.team-row {
+    display: flex;
+    margin: 3rem 0 0 0;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #eee;
+}
+.team-row:last-child {
+    border-bottom: 0px;
+}
+.team-member-photo-container {
+    padding: 0.5rem 2.5rem 1rem 1rem;
+}
+.team-member-photo {
+    width: 170px;
+    height: 170px;
+    border-radius: 200px;
+}
+.info-container {
+    text-align: left;
+}
+.name {
+    color: #ED6A5A;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.role {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.text {
+    color: #5D576B;
+    line-height: 1.75rem;
+    font-weight: light;
+    font-size: 0.9rem;
+}
+.link-container {
+    margin-top: 2rem;
+}
+.portfolio-link {
+    display: inline-block;
+    cursor: pointer;
+    background: #ED6A5A;
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.25rem;
+    vertical-align: middle;
+}
+.portfolio-link:hover {
+    text-decoration: none;
+    color: white;
+    background: #f99a8e;
+}
+.portfolio-link img {
+    width: 30px;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+.portfolio-link i {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+.social-buttons {
+    display: inline-block;
+    margin-left: 1rem;
+    vertical-align: middle;
+}
+.social-buttons a {
+    font-size: 2rem;
+    margin: 0.25rem;
+}
+.social-buttons a:hover {
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.8;
+}
+.social-youtube {
+    color: #FF0000;
+}
+.social-facebook {
+    color: #4267B2;
+}
+.social-twitter {
+    color: #1DA1F2;
+}
+.social-instagram {
+    color: #C13584;
+}
+.social-linkedin {
+    color: #0A66C2;
+}
+.footer {
+    background: #34252F;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+}
+.footer a {
+    color: white;
+}
+
+
+@media (max-width: 666px) {
+    .header {
+        height: 250px;
+        background-attachment: initial;
+    }
+    .logo-container {
+        display: none;
+    }
+    .logo-mobile {
+        display: block;
+    }
+    .gallery-element {
+        width: 100%;
+    }
+    .team-row {
+        display: block;
+    }
+}
