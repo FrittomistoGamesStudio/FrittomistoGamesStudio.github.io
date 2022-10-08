@@ -264,7 +264,7 @@ h1 {
 }
 
 
-@media (max-width: 1279px) {
+@media (max-width: 1366px) {
     .header {
         height: 600px;
         background-attachment: initial;
@@ -274,6 +274,7 @@ h1 {
     }
     .logo-mobile {
         display: block;
+        width: 120px;
     }
     .gallery-element {
         width: 100%;
